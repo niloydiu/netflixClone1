@@ -8,10 +8,21 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-icons">
-        <img src={github_icon} alt="Github Icon" />
-        <img src={linkedin_icon} alt="Instagram Icon" />
-        <img src={ntp} alt="N Icon" className="ntp" />
-        <img src={facebook_icon} alt="Facebook Icon" />
+        <a href="https://github.com/niloydiu/" target="_blank">
+          <img src={github_icon} alt="Github Icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/niloykumarmohonta000/"
+          target="_blank"
+        >
+          <img src={linkedin_icon} alt="Instagram Icon" />
+        </a>
+        <a href="https://niloykm.vercel.app/" target="_blank">
+          <img src={ntp} alt="N Icon" className="ntp" />
+        </a>
+        <a href="https://www.facebook.com/niloykumarmohonta000" target="_blank">
+          <img src={facebook_icon} alt="Facebook Icon" />
+        </a>
       </div>
       <ul>
         <li>Audio Description</li>
